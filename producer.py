@@ -6,7 +6,7 @@ from sensor_simulator import generar_dato_meteorologico
 
 # Configuración de Kafka
 KAFKA_SERVER = 'iot.redesuvg.cloud:9092'
-TOPIC = '21333'  # Reemplaza con tu número de carné
+TOPIC = '21333'  # Número de carné
 CLIENT_ID = 'estacion_meteorologica_uvg'
 
 
@@ -91,4 +91,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
